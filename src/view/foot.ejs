@@ -1,0 +1,26 @@
+<div class="modal">
+    <div class="modal-overlay modal-toggle"></div>
+    <div class="modal-wrapper modal-transition">
+        <div class="modal-header"><span class="modal-close modal-toggle" data-icon="l"></span></div>
+        <div class="modal-body">
+            <ul>
+            <% tags.forEach(function(category) { %>
+                <% category.children.forEach(function(tag) { %>
+                <li><a href="<%= relativePath %>tags/<%= tag.name %>.html"><%= tag.name %></a></li>
+                <% }); %>
+            <% }); %>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="outdated">
+    <h6>您的浏览器是出过期！</h6>
+    <p>更新您的浏览器，以正确地查看这个网站。<a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">我的更新，现在的浏览器</a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="关闭">×</a></p>
+</div>
+<script src="<%= relativePath %>js/jquery.js"></script>
+<script src="<%= relativePath %>js/jquery.easing.min.js"></script>
+<script src="<%= relativePath %>js/custom.js"></script>
+<script src="<%= relativePath %>js/outdatedbrowser.min.js"></script>
+</body>
+</html>
