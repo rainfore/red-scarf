@@ -281,7 +281,7 @@ section {
     display: block;
     margin: 0 auto;
     color: #ECEBDA;
-    background: #E86D5D;
+    background: #DA2B2B;
     text-align: center;
     font-size: 1.6em;
     padding: .4em
@@ -389,7 +389,7 @@ section {
 }
 
 .main-content-block a {
-    color: #E86D5D;
+    color: #DA2B2B;
     -webkit-transition: all .2s ease;
     transition: all .2s ease
 }
@@ -441,7 +441,7 @@ section {
 }
 
 .main-content-block .sticker h2 a {
-    border-bottom: 1px solid #E86D5D
+    border-bottom: 1px solid #DA2B2B
 }
 
 .accordion h3, .accordion h3.modal-toggle.active {
@@ -508,7 +508,7 @@ section {
 }
 
 .terms a {
-    color: #E86D5D;
+    color: #DA2B2B;
     -webkit-transition: all .2s ease;
     transition: all .2s ease
 }
@@ -596,7 +596,7 @@ header .account a {
 
 .contact-form input[type=text]:focus, .contact-form input[type=url]:focus, .contact-form textarea:focus {
     background-color: #fff;
-    border-color: #E86D5D;
+    border-color: #DA2B2B;
     outline: 0;
     box-shadow: none
 }
@@ -618,7 +618,7 @@ header .account a {
     color: #fff;
     font-size: 1.6em;
     width: 100%;
-    background: #E86D5D;
+    background: #DA2B2B;
     text-align: center;
     display: block;
     line-height: 1;
@@ -664,7 +664,7 @@ header .account a {
 
 .contact-form .thanks h4 {
     font-size: 5em;
-    color: #E86D5D;
+    color: #DA2B2B;
     font-weight: 700;
     text-align: center;
     margin: 2em 0 0
@@ -708,7 +708,7 @@ header .account a {
 
 .missing h1 {
     font-size: 10em;
-    color: #E86D5D;
+    color: #DA2B2B;
     font-weight: 700;
     text-align: center;
     margin: 6% 0 2%
@@ -725,7 +725,7 @@ header .account a {
     }
 
     .missing .missing-inner {
-        background: #E86D5D;
+        background: #DA2B2B;
         color: #ECEBDA;
         position: relative;
         bottom: 2em;
@@ -813,7 +813,7 @@ header .account a {
 }
 
 .owl-color {
-    fill: #E86D5D
+    fill: #DA2B2B
 }
 
 .owl-bg {
@@ -852,7 +852,7 @@ header .account a {
 @media only screen and (min-width:1321px)and (max-width:1620px) {
     .link-block {
         width: 32.66%;
-        margin: 0 1% 1% 0
+        margin: 0 1% 2% 0;
     }
 
     .link-block:nth-of-type(3n) {
@@ -906,7 +906,7 @@ header .account a {
 
 @media only screen and (min-width:641px) {
     .link {
-        height: 360px;
+        height: 330px;
         width: 100%;
         position: relative
     }
@@ -939,7 +939,7 @@ header .account a {
 
 @media only screen and (min-width:641px) {
     .link .link-color {
-        height: 240px;
+        height: 260px;
         width: 100%;
         overflow: hidden;
     }
@@ -947,6 +947,36 @@ header .account a {
     .link .link-inner {
         padding: 3%
     }
+	
+
+
+
+ .link .link-color img {
+	max-width: none;
+	height: 400px;
+	-webkit-transition: opacity 1s, -webkit-transform 1s;
+	transition: opacity 1s, transform 1s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+ .link .link-color figcaption {
+	text-align: left;
+}
+
+
+
+ .link .link-color:hover img {
+	-webkit-transform: scale3d(1.1,1.1,1);
+	transform: scale3d(1.1,1.1,1);
+}
+
+ .link .link-color:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+		
 }
 
 .link .link-inner .link-thumb {
@@ -1136,7 +1166,7 @@ header .account a {
 }
 
 .link .link-link a:active span, .link .link-link a:focus span, .link .link-link a:hover span, .link:hover .link-link a:hover span {
-    color: #E86D5D
+    color: #DA2B2B
 }
 
 @media only screen and (min-width:641px) {
@@ -1286,7 +1316,7 @@ header .logo-small {
 }
 
 header .logo-small .owl-color {
-    fill: #E86D5D
+    fill: #DA2B2B
 }
 
 header .logo-small .nose-color {
@@ -1314,7 +1344,7 @@ header .logo-small .logo-white, header .logo-small .owl-black.logotype {
     line-height: 1;
     height: 40px;
     width: 40px;
-    color: #E86D5D;
+    color: #DA2B2B;
     -webkit-transition: .3s all ease;
     transition: .3s all ease
 }
@@ -1399,7 +1429,7 @@ aside {
 
 .accordion h3.modal-toggle.active {
     color: #ECEBDA;
-    background: #E86D5D;
+    background: #DA2B2B;
 }
 
 .accordion h3.modal-toggle.active span {
@@ -1410,7 +1440,7 @@ aside {
 }
 
 .accordion h3:hover {
-    background-color: #E86D5D;
+    background-color: #DA2B2B;
     color: #ECEBDA
 }
 
@@ -1419,7 +1449,7 @@ aside {
 }
 
 .accordion h3.active {
-    background-color: #E86D5D;
+    background-color: #DA2B2B;
     color: #ECEBDA
 }
 
@@ -1464,7 +1494,7 @@ aside {
 
 .accordion .sub li a.current, .accordion .sub li a:hover {
     background: #f5f5f5;
-    border-left: .3em solid #E86D5D;
+    border-left: .3em solid #DA2B2B;
     color: #333;
 }
 
@@ -1476,7 +1506,7 @@ aside {
 }
 
 .logo .owl-color, .logo-small .owl-color {
-    fill: #E86D5D
+    fill: #DA2B2B
 }
 
 .logo .nose-color, .logo-small .nose-color {
@@ -1760,7 +1790,7 @@ aside {
     line-height: 40px;
     text-align: center;
     cursor: pointer;
-    color: #E86D5D;
+    color: #DA2B2B;
     background: #282C2D;
     -webkit-transition: .2s all ease;
     transition: .2s all ease
@@ -1769,7 +1799,7 @@ aside {
 @media only screen and (min-width:641px) {
     .searchbox-icon, .searchbox-submit {
         color: #ECEBDA;
-        background: #E86D5D
+        background: #DA2B2B
     }
 }
 
@@ -1868,7 +1898,7 @@ footer .footer-list li a {
 }
 
 footer .footer-list li a:active, footer .footer-list li a:focus, footer .footer-list li a:hover {
-    color: #E86D5D
+    color: #DA2B2B
 }
 
 footer .footer-list li:after {
@@ -2134,7 +2164,7 @@ footer .footer-list li:last-of-type:after {
     top: .5em;
     right: .5em;
     font-size: 3em;
-    color: #E86D5D;
+    color: #DA2B2B;
     background: 0 0;
     border: 0;
     -webkit-transition: all ease .2s;
@@ -2205,13 +2235,13 @@ footer .footer-list li:last-of-type:after {
     font-weight: 300;
     background: #fff;
     color: #333;
-    border-left: 5px solid #E86D5D;
+    border-left: 5px solid #DA2B2B;
     -webkit-transition: all ease .3s;
     transition: all ease .3s
 }
 
 .modal-body ul li a:hover {
-    background: #E86D5D;
+    background: #DA2B2B;
     color: #ECEBDA
 }
 
@@ -2224,7 +2254,7 @@ footer .footer-list li:last-of-type:after {
     height: 170px;
     text-align: center;
     z-index: 1500;
-    background-color: #E86D5D;
+    background-color: #DA2B2B;
     color: #fff
 }
 
@@ -2257,7 +2287,7 @@ footer .footer-list li:last-of-type:after {
 }
 
 #outdated #btnUpdateBrowser:hover {
-    color: #E86D5D;
+    color: #DA2B2B;
     background-color: #fff
 }
 
