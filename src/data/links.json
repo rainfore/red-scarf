@@ -69,7 +69,7 @@
     "href": "https://readthedocs.org/",
     "full": "images/full/readthedocs.jpg",
     "img": "http://wwwhere.io/img/thumbs/readthedocs.jpg",
-    "tags": ["文件"],
+    "tags": ["文档"],
     "description": "建，主机和浏览文档。"
 }, {
     "name": "视护目镜",
@@ -168,15 +168,7 @@
     "tags": ["域和托管"],
     "description": "便宜的价格和自由的特性，每顶级域名。登记，转让，续展和价格从28注册更新，每6小时。"
 }, {
-    "name": "糕点盒",
-    "address": "the-pastry-box-project.net",
-    "href": "https://the-pastry-box-project.net",
-    "full": "images/full/thepastrybox.jpg",
-    "img": "http://wwwhere.io/img/thumbs/thepastrybox.jpg",
-    "tags": ["blog"],
-    "description": "们塑造网络。一想到每一天。所有一年之久。糖的心灵。"
-}, {
-    "name": "Firefox的开发者版",
+    "name": "Firefox 开发者版",
     "address": "mozilla.org/en-US/firefox/developer",
     "href": "https://www.mozilla.org/en-US/firefox/developer/",
     "full": "images/full/firefoxdeveloperedition.jpg",
@@ -187,7 +179,7 @@
     "name": "Chrome Canary版",
     "address": "google.com/chrome/browser/canary",
     "href": "https://www.google.com/chrome/browser/canary.html",
-    "full": "images/full/chromecanary.jpg",
+    "full": "images/full/canary.jpg",
     "img": "http://wwwhere.io/img/thumbs/chromecanary.jpg",
     "tags": ["浏览器"],
     "description": "歌Chrome Canary版拥有最新的Chrome浏览器的新功能。"
@@ -213,7 +205,7 @@
     "href": "http://daux.io",
     "full": "images/full/daux.jpg",
     "img": "http://wwwhere.io/img/thumbs/daux.jpg",
-    "tags": ["文件"],
+    "tags": ["文档"],
     "description": "简单的方法来记录你的项目。"
 }, {
     "name": "流明",
@@ -235,7 +227,7 @@
     "name": "Stylie",
     "address": "jeremyckahn.github.io/stylie",
     "href": "https://jeremyckahn.github.io/stylie/",
-    "full": "images/full/stylie.jpg",
+    "full": "images/full/jeremyckahn.jpg",
     "img": "http://wwwhere.io/img/thumbs/stylie.jpg",
     "tags": ["代码生成"],
     "description": "tylie是一个有趣的工具，轻松地创建复杂的CSS动画。快速地设计动画图形，抓生成的代码去！"
@@ -592,14 +584,6 @@
     "tags": ["流程"],
     "description": "rowserify让您可以要求（“模块”）在浏览器中捆绑了所有的相关性。"
 }, {
-    "name": "Flexbox在5分钟内",
-    "address": "flexboxin5.com",
-    "href": "http://flexboxin5.com/",
-    "full": "images/full/flexboxin5.jpg",
-    "img": "http://wwwhere.io/img/thumbs/flexboxin5.jpg",
-    "tags": ["代码生成"],
-    "description": "的CSS属性的所有主要功能互动之旅：flexbox。"
-}, {
     "name": "斐波那契",
     "address": "maxsteenbergen.com/fibonacci",
     "href": "http://maxsteenbergen.com/fibonacci/",
@@ -631,15 +615,7 @@
     "img": "http://wwwhere.io/img/thumbs/crossbrowsertesting.jpg",
     "tags": ["测试和优化"],
     "description": "览器测试变得容易！检查分钟您的网站的跨浏览器兼容！浏览器，操作系统和插件750组合"
-}, {
-    "name": "浏览器截图",
-    "address": "browsershots.org",
-    "href": "http://browsershots.org/",
-    "full": "images/full/browsershots.jpg",
-    "img": "http://wwwhere.io/img/thumbs/browsershots.jpg",
-    "tags": ["测试和优化"],
-    "description": "rowsershots让你的网页设计在不同的操作系统和浏览器的截图。"
-}, {
+},{
     "name": "Namecheap",
     "address": "namecheap.com",
     "href": "https://www.namecheap.com/",
@@ -675,7 +651,7 @@
     "name": "收割",
     "address": "reapp.io",
     "href": "http://reapp.io/",
-    "full": "images/full/reap.jpg",
+    "full": "images/full/reapp.jpg",
     "img": "http://wwwhere.io/img/thumbs/reap.jpg",
     "tags": ["框架"],
     "description": "与反应，Reapp美丽的，互动的混合应用程序。"
@@ -952,13 +928,13 @@
     "tags": ["自由职业者"],
     "description": "师帮助企业和自由职业者连接和在线协同工作。按照我们对自由职业者和创业技巧。"
 }, {
-    "name": "ODesk",
+    "name": "upwork",
     "address": "odesk.com",
-    "href": "https://www.odesk.com/",
-    "full": "images/full/odesk.jpg",
+    "href": "https://www.upwork.com",
+    "full": "images/full/upwork.jpg",
     "img": "http://wwwhere.io/img/thumbs/odesk.jpg",
     "tags": ["自由职业者"],
-    "description": "里有世界去上班！我们是一个领先的在线工作区，在那里精明的企业和自由职业者才华把工作完成。"
+    "description": "这里有世界去上班！我们是一个领先的在线工作区，在那里精明的企业和自由职业者才华把工作完成。"
 }, {
     "name": "Elance",
     "address": "elance.com",
@@ -1096,21 +1072,13 @@
     "tags": ["职位公告板"],
     "description": "日电子邮件，在高科技初创远程作业。"
 }, {
-    "name": "移相器",
-    "address": "phaser.io",
-    "href": "http://phaser.io/",
-    "full": "images/full/phaser.jpg",
-    "img": "http://wwwhere.io/img/thumbs/phaser.jpg",
-    "tags": ["框架"],
-    "description": "式机和移动HTML5游戏框架。一个快速，自由和乐趣的开源框架，支持JavaScript和打字稿。"
-}, {
     "name": "应对",
     "address": "facebook.github.io/react",
     "href": "http://facebook.github.io/react/",
     "full": "images/full/react.jpg",
     "img": "http://wwwhere.io/img/thumbs/react.jpg",
     "tags": ["框架"],
-    "description": "个JavaScript库，用于构建用户界面。"
+    "description": "一个JavaScript库，用于构建用户界面。"
 }, {
     "name": "笨",
     "address": "codeigniter.com",
@@ -1717,7 +1685,7 @@
     "href": "http://marklyapp.com/",
     "full": "images/full/markly.jpg",
     "img": "http://wwwhere.io/img/thumbs/markly.jpg",
-    "tags": ["文件"],
+    "tags": ["文档"],
     "description": "arkly是一种有趣的方式来创建和设计规格为您的设计作品。据maded今天的网络和移动设计，与Adobe Photoshop CC＆素描支持。"
 }, {
     "name": "过时的浏览器",
@@ -1901,7 +1869,7 @@
     "href": "http://devdocs.io/",
     "full": "images/full/devdocs.jpg",
     "img": "http://wwwhere.io/img/thumbs/devdocs.jpg",
-    "tags": ["文件"],
+    "tags": ["文档"],
     "description": "evDocs结合了多个API单证以一种快速，组织和搜索界面。"
 }, {
     "name": "Userium",
@@ -2003,7 +1971,7 @@
     "name": "谷歌地图API",
     "address": "developers.google.com/maps",
     "href": "https://developers.google.com/maps/",
-    "full": "images/full/googlemaps.jpg",
+    "full": "images/full/developersgoogle.jpg",
     "img": "http://wwwhere.io/img/thumbs/googlemaps.jpg",
     "tags": ["地图"],
     "description": "谷歌地图API为开发者提供嵌入谷歌地图到网页的几种方法，并允许用户选择简单使用或广泛的定制。"
@@ -2083,7 +2051,7 @@
     "name": "ICONO",
     "address": "saeedalipoor.github.io/icono",
     "href": "https://saeedalipoor.github.io/icono/",
-    "full": "images/full/icono.jpg",
+    "full": "images/full/saeedalipoor.jpg",
     "img": "http://wwwhere.io/img/thumbs/icono.jpg",
     "tags": ["图标"],
     "description": "CSS图标，只有一个元素。"
@@ -2405,7 +2373,7 @@
     "href": "http://www.codeproject.com/",
     "full": "images/full/codeproject.jpg",
     "img": "http://wwwhere.io/img/thumbs/codeproject.jpg",
-    "tags": ["用品", "社区汇总"],
+    "tags": ["用品", "社区"],
     "description": "codeProject上是开发者和程序员是世界上最大的独立社区之一。"
 }, {
     "name": "Kohana的",
@@ -2432,13 +2400,13 @@
     "tags": ["合作"],
     "description": "页设计和开发的视觉反馈。"
 }, {
-    "name": "启动报价",
+    "name": "startupquote",
     "address": "startupquote.com",
     "href": "http://startupquote.com/",
     "full": "images/full/startupquote.jpg",
     "img": "http://wwwhere.io/img/thumbs/startupquote.jpg",
     "tags": ["blog"],
-    "description": "慧有关使事情。"
+    "description": "更加智慧。"
 }, {
     "name": "Breaz",
     "address": "breaz.io",
@@ -2447,22 +2415,14 @@
     "img": "http://wwwhere.io/img/thumbs/breaz.jpg",
     "tags": ["职位公告板"],
     "description": "业机会的技术专家。获取量身定制的连接工作，从提供最好的高科技公司。"
-}, {
-    "name": "Hilite.me",
-    "address": "hilite.me",
-    "href": "http://hilite.me/",
-    "full": "images/full/hiliteme.jpg",
-    "img": "http://wwwhere.io/img/thumbs/hiliteme.jpg",
-    "tags": ["代码生成"],
-    "description": "ilite.me将您的代码段成漂亮的打印HTML格式，轻松地嵌入到博客，电子邮件和网站。"
-}, {
-    "name": "到位桶",
+},{
+    "name": "bitbucket",
     "address": "bitbucket.org",
     "href": "https://bitbucket.org/",
     "full": "images/full/bitbucket.jpg",
     "img": "http://wwwhere.io/img/thumbs/bitbucket.jpg",
     "tags": ["版本控制"],
-    "description": "到位桶一个免费的代码托管DVCS站点的Git和Mercurial。管理你的开发与托管维基，问题跟踪和源代码。"
+    "description": "bitbucket是一个免费的代码托管DVCS站点的Git和Mercurial。管理你的开发与托管维基，问题跟踪和源代码。"
 }, {
     "name": "大厅",
     "address": "hall.com",
@@ -2648,26 +2608,18 @@
     "tags": ["合作", "版本控制"],
     "description": "觉版本控制设计。 "
 }, {
-    "name": "VIM",
-    "address": "vim.org",
-    "href": "http://www.vim.org",
-    "full": "images/full/vim.jpg",
-    "img": "http://wwwhere.io/img/thumbs/vim.jpg",
-    "tags": ["代码编辑器"],
-    "description": "IM是寻求提供事实上的Unix的编辑器'六'的力量，以更完整的功能集先进的文本编辑器。"
-}, {
     "name": "KRIT",
     "address": "krit.it",
     "href": "https://krit.it/",
     "full": "images/full/krit.jpg",
     "img": "http://wwwhere.io/img/thumbs/krit.jpg",
     "tags": ["法律"],
-    "description": "由职业者的合同变得简单"
+    "description": "自由职业者的合同变得简单"
 }, {
     "name": "蒸馏",
     "address": "wedistill.io",
     "href": "http://www.wedistill.io/",
-    "full": "images/full/distill.jpg",
+    "full": "images/full/wedistill.jpg",
     "img": "http://wwwhere.io/img/thumbs/distill.jpg",
     "tags": ["视频"],
     "description": "划的高清视频股票免费为您的个人和商业用途。10个新的视频，每10天。影片是在Creative Commons零许可协议。"
@@ -3499,7 +3451,7 @@
     "name": "Airstoc",
     "address": "airstoc.com",
     "href": "https://www.airstoc.com/",
-    "full": "images/full/airstock.jpg",
+    "full": "images/full/airstoc.jpg",
     "img": "http://wwwhere.io/img/thumbs/airstock.jpg",
     "tags": ["视频"],
     "description": "最好的航拍素材，或租一辆无人驾驶飞机运营商。"
@@ -3763,7 +3715,7 @@
     "name": "新老股票",
     "address": "nos.twnsnd.co",
     "href": "http://nos.twnsnd.co/",
-    "full": "images/full/newoldstock.jpg",
+    "full": "images/full/twnsnd.jpg",
     "img": "http://wwwhere.io/img/thumbs/newoldstock.jpg",
     "tags": ["图片"],
     "description": "INTAGE照片从公共档案免费已知的版权限制。"
@@ -3795,7 +3747,7 @@
     "name": "Iconmoon",
     "address": "icomoon.io",
     "href": "https://icomoon.io/",
-    "full": "images/full/iconmoon.jpg",
+    "full": "images/full/icomoon.jpg",
     "img": "http://wwwhere.io/img/thumbs/iconmoon.jpg",
     "tags": ["图标"],
     "description": "coMoon提供一揽子矢量图标，以及用于制作自定义图标字体的免费应用程序的HTML5。数以千计的像素完美的图标，浏览或导入自己的载体。"
@@ -3811,15 +3763,15 @@
     "name": "图标甜瓜",
     "address": "iconmelon.com",
     "href": "http://iconmelon.com/",
-    "full": "images/full/iconmellon.jpg",
+    "full": "images/full/iconmelon.jpg",
     "img": "http://wwwhere.io/img/thumbs/iconmellon.jpg",
     "tags": ["图标"],
-    "description": "VG图标库网络。"
+    "description": "SVG图标库网络。"
 }, {
-    "name": "标志性的",
+    "name": "标志性",
     "address": "useiconic.com",
     "href": "https://useiconic.com/",
-    "full": "images/full/iconic.jpg",
+    "full": "images/full/useiconic.jpg",
     "img": "http://wwwhere.io/img/thumbs/iconic.jpg",
     "tags": ["图标"],
     "description": "penIconic。一个开源的图标设置在SVG，webfont和光栅格式223马克。"
@@ -3827,7 +3779,7 @@
     "name": "字体真棒",
     "address": "fortawesome.github.io/Font-Awesome",
     "href": "http://fortawesome.github.io/Font-Awesome/",
-    "full": "images/full/fontawesome.jpg",
+    "full": "images/full/fortawesome.jpg",
     "img": "http://wwwhere.io/img/thumbs/fontawesome.jpg",
     "tags": ["图标"],
     "description": "体真棒为您提供了可缩放的矢量图标，可以立即进行定制 - 大小，颜色，阴影，以及任何可以利用CSS的强大功能来实现。"
@@ -3835,7 +3787,7 @@
     "name": "Fontastic",
     "address": "fontastic.me",
     "href": "http://fontastic.me/",
-    "full": "images/full/fontasticme.jpg",
+    "full": "images/full/fontastic.jpg",
     "img": "http://wwwhere.io/img/thumbs/fontasticme.jpg",
     "tags": ["图标"],
     "description": "建在几秒钟内你的自定义图标字体"
@@ -3995,9 +3947,9 @@
     "name": "菠萝",
     "address": "pineapple.io",
     "href": "http://pineapple.io/",
-    "full": "images/full/pineaple.jpg",
+    "full": "images/full/pineapple.jpg",
     "img": "http://wwwhere.io/img/thumbs/pineaple.jpg",
-    "tags": ["社区汇总", "教程"],
+    "tags": ["社区", "教程"],
     "description": "萝是用户提交的教程，工具和用于编程和设计资产的集中中心。"
 }, {
     "name": "Quora",
@@ -4005,7 +3957,7 @@
     "href": "http://www.quora.com/",
     "full": "images/full/quora.jpg",
     "img": "http://wwwhere.io/img/thumbs/quora.jpg",
-    "tags": ["社区汇总"],
+    "tags": ["社区"],
     "description": "Quora的是你最好的知识来源。问任何问题，得到人们第一手经验真正的答案，和博客是什么，你知道的。"
 }, {
     "name": "堆栈溢出",
@@ -4013,7 +3965,7 @@
     "href": "http://stackoverflow.com/",
     "full": "images/full/stackoverflow.jpg",
     "img": "http://wwwhere.io/img/thumbs/stackoverflow.jpg",
-    "tags": ["社区汇总"],
+    "tags": ["社区"],
     "description": "语言无关的协作编辑的问答网站程序员。"
 }, {
     "name": "倾斜",
@@ -4021,7 +3973,7 @@
     "href": "http://www.slant.co/",
     "full": "images/full/slant.jpg",
     "img": "http://wwwhere.io/img/thumbs/slant.jpg",
-    "tags": ["社区汇总"],
+    "tags": ["社区"],
     "description": "现最好的。开始编程工具，服务和技术。"
 }, {
     "name": "书签交易",
@@ -4029,7 +3981,7 @@
     "href": "http://www.reddit.com/",
     "full": "images/full/reddit.jpg",
     "img": "http://wwwhere.io/img/thumbs/reddit.jpg",
-    "tags": ["社区汇总"],
+    "tags": ["社区"],
     "description": "eddit的是一个社交网络服务和新闻网站，注册的社区成员可以提交内容，如文字职位或直接联系。"
 }, {
     "name": "产品亨特",
@@ -4037,23 +3989,23 @@
     "href": "http://www.producthunt.com/",
     "full": "images/full/producthunt.jpg",
     "img": "http://wwwhere.io/img/thumbs/producthunt.jpg",
-    "tags": ["社区汇总"],
+    "tags": ["社区"],
     "description": "特的产品是最好的新产品，每天的策展。查看最新的移动应用程序，网站和技术产品，每个人都在谈论。"
 }, {
     "name": "黑客新闻",
     "address": "news.ycombinator.com",
     "href": "https://news.ycombinator.com/",
-    "full": "images/full/hackernews.jpg",
+    "full": "images/full/ycombinator.jpg",
     "img": "http://wwwhere.io/img/thumbs/hackernews.jpg",
-    "tags": ["社区汇总"],
+    "tags": ["社区"],
     "description": "客新闻是一个社会新闻网站，迎合程序员和创业者，提供的内容涉及到计算机科学和创业精神。"
 }, {
     "name": "设计师新闻",
     "address": "news.layervault.com",
     "href": "https://news.layervault.com/",
-    "full": "images/full/designernews.jpg",
+    "full": "images/full/news-layervault.jpg",
     "img": "http://wwwhere.io/img/thumbs/designernews.jpg",
-    "tags": ["社区汇总"],
+    "tags": ["社区"],
     "description": "计师新闻是一个社区，在这里设计和技术专业人士分享有趣的链接和及时的事件。"
 }, {
     "name": "设计审查播客",
@@ -4387,7 +4339,7 @@
     "name": "Forrst",
     "address": "zurb.com/forrst",
     "href": "http://zurb.com/forrst",
-    "full": "images/full/forrst.jpg",
+    "full": "images/full/zurb.jpg",
     "img": "http://wwwhere.io/img/thumbs/forrst.jpg",
     "tags": ["投资组合", "橱窗"],
     "description": "orrst是一个社区，设计师和开发人员可以分享他们的工作，并得到他们所需要的反馈。 "
@@ -4411,7 +4363,7 @@
     "name": "我爱印刷术",
     "address": "ilovetypography.com",
     "href": "http://ilovetypography.com/",
-    "full": "images/full/iliketypography.jpg",
+    "full": "images/full/ilovetypography.jpg",
     "img": "http://wwwhere.io/img/thumbs/iliketypography.jpg",
     "tags": ["用品", "活版印刷"],
     "description": "界上最流行的字体与排版博客。"
@@ -4459,7 +4411,7 @@
     "name": "CSS-技巧",
     "address": "css-tricks.com",
     "href": "http://css-tricks.com/",
-    "full": "images/full/css-tricks.jpg",
+    "full": "images/full/csstricks.jpg",
     "img": "http://wwwhere.io/img/thumbs/css-tricks.jpg",
     "tags": ["教程"],
     "description": "力于CSS和相关技术的世界。片段，视频，技巧和教程。"
@@ -4491,12 +4443,12 @@
     "name": "TUTS +",
     "address": "tutsplus.com",
     "href": "http://tutsplus.com/",
-    "full": "images/full/tutplus.jpg",
+    "full": "images/full/tutsplus.jpg",
     "img": "http://wwwhere.io/img/thumbs/tutplus.jpg",
     "tags": ["教程"],
     "description": "UTS +讲授创意和技术技能，全世界数百万人，对主题，如设计，研发，摄影，视频，计算和工艺。"
 }, {
-    "name": "网页设计莱杰",
+    "name": "webdesignledger",
     "address": "webdesignledger.com",
     "href": "http://webdesignledger.com/",
     "full": "images/full/webdesignledger.jpg",
@@ -4507,7 +4459,7 @@
     "name": "秘密握手",
     "address": "learnthesecrethandshake.com",
     "href": "http://learnthesecrethandshake.com/",
-    "full": "images/full/thesecrethandshake.jpg",
+    "full": "images/full/learnthesecrethandshake.jpg",
     "img": "http://wwwhere.io/img/thumbs/thesecrethandshake.jpg",
     "tags": ["blog"],
     "description": "密握手是学生设计师和年轻的创意寻找内线的洞察力，诚实的答案和固溶体亲去的资源。 "
@@ -4555,7 +4507,7 @@
     "name": "脚本教程",
     "address": "script-tutorials.com",
     "href": "http://www.script-tutorials.com/",
-    "full": "images/full/scripttutorials.jpg",
+    "full": "images/full/script-tutorials.jpg",
     "img": "http://wwwhere.io/img/thumbs/scripttutorials.jpg",
     "tags": ["教程"],
     "description": "本教程是所有Web开发人员提供一站式的解决方案。了解HTML5，CSS3，PHP，MySQL的，使用Javascript，jQuery的，网页设计等。"
@@ -4563,10 +4515,10 @@
     "name": "NuSchool",
     "address": "thenuschool.com",
     "href": "http://thenuschool.com/",
-    "full": "images/full/nuschool.jpg",
+    "full": "images/full/thenuschool.jpg",
     "img": "http://wwwhere.io/img/thumbs/nuschool.jpg",
     "tags": ["blog"],
-    "description": "鲜的教育对于创意专业人士。"
+    "description": "创意专业人士教程。"
 }, {
     "name": "不起眼的花衣",
     "address": "humblepied.com",
@@ -4611,7 +4563,7 @@
     "name": "Codrops",
     "address": "tympanus.net/codrops",
     "href": "http://tympanus.net/codrops/",
-    "full": "images/full/codrops.jpg",
+    "full": "images/full/tympanus.jpg",
     "img": "http://wwwhere.io/img/thumbs/codrops.jpg",
     "tags": ["用品", "教程"],
     "description": "odrops致力于提供有用的教程，有见地的文章，创作灵感和免费资源，网页设计师和开发人员。"
@@ -4837,7 +4789,7 @@
     "href": "http://www.colourlovers.com",
     "full": "images/full/colourlovers.jpg",
     "img": "http://wwwhere.io/img/thumbs/colourlovers.jpg",
-    "tags": ["颜色", "社区汇总"],
+    "tags": ["颜色", "社区"],
     "description": "OLOURlovers是一种创造性的社区，在这里来自世界各地的人们创建和共享颜色，调色板和模式，讨论最新的发展趋势，探索丰富多彩的文章。"
 }, {
     "name": "多个应用程序",
