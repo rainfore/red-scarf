@@ -835,7 +835,7 @@
     "name": "摩卡",
     "address": "mochajs.org",
     "href": "http://mochajs.org/",
-    "full": "images/full/mocha.jpg",
+    "full": "images/full/mochajs.jpg",
     "img": "http://wwwhere.io/img/thumbs/mocha.jpg",
     "tags": ["测试和优化"],
     "description": "卡是node.js的和浏览器上运行了一个功能丰富的JavaScript测试框架，使异步测试简单而有趣。"
@@ -875,7 +875,7 @@
     "name": "实习生",
     "address": "theintern.github.io",
     "href": "https://theintern.github.io/",
-    "full": "images/full/intern.jpg",
+    "full": "images/full/theintern.jpg",
     "img": "http://wwwhere.io/img/thumbs/intern.jpg",
     "tags": ["测试和优化"],
     "description": "件测试人类"
@@ -1715,7 +1715,7 @@
     "name": "流行的",
     "address": "popapp.in",
     "href": "https://popapp.in/",
-    "full": "images/full/pop.jpg",
+    "full": "images/full/popapp.jpg",
     "img": "http://wwwhere.io/img/thumbs/pop.jpg",
     "tags": ["原型"],
     "description": "OP原来手绘线框图互动原型。绘制在纸上的应用程序的想法; 拍照并添加实体模型之间的联系。"
@@ -2467,7 +2467,7 @@
     "name": "窥视",
     "address": "peek.usertesting.com",
     "href": "http://peek.usertesting.com/",
-    "full": "images/full/peek.jpg",
+    "full": "images/full/usertesting.jpg",
     "img": "http://wwwhere.io/img/thumbs/peek.jpg",
     "tags": ["用户研究"],
     "description": "到和听到使用您的网站或应用程序的一个真实的人的一个5分钟的视频。"
@@ -3099,7 +3099,7 @@
     "name": "西尔弗贝克",
     "address": "silverbackapp.com",
     "href": "http://silverbackapp.com/",
-    "full": "images/full/silverback.jpg",
+    "full": "images/full/silverbackapp.jpg",
     "img": "http://wwwhere.io/img/thumbs/silverback.jpg",
     "tags": ["用户研究"],
     "description": "Mac上游击队可用性测试变得容易"
@@ -3110,7 +3110,7 @@
     "full": "images/full/dscout.jpg",
     "img": "http://wwwhere.io/img/thumbs/dscout.jpg",
     "tags": ["用户研究"],
-    "description": "Scout是你用你的智能手机来分享您的意见和经验实时移动服务研究。"
+    "description": "DScout是你用你的智能手机来分享您的意见和经验实时移动服务研究。"
 }, {
     "name": "SurveyMonkey",
     "address": "surveymonkey.com",
@@ -3123,7 +3123,7 @@
     "name": "Ethnio",
     "address": "ethn.io",
     "href": "http://ethn.io/",
-    "full": "images/full/ethnio.jpg",
+    "full": "images/full/ethn.jpg",
     "img": "http://wwwhere.io/img/thumbs/ethnio.jpg",
     "tags": ["用户研究"],
     "description": "加拦截从你的Web应用程序或移动应用程序的用户体验研究，可用性，调查，等等。"
@@ -3227,7 +3227,7 @@
     "name": "INVISION",
     "address": "invisionapp.com",
     "href": "http://www.invisionapp.com/",
-    "full": "images/full/invision.jpg",
+    "full": "images/full/invisionapp.jpg",
     "img": "http://wwwhere.io/img/thumbs/invision.jpg",
     "tags": ["合作", "原型"],
     "description": "您的Web和移动（IOS，Android的）设计成可点击的，互动的原型和样机。"
@@ -4747,7 +4747,7 @@
     "name": "color cc",
     "address": "color.adobe",
     "href": "https://color.adobe.com",
-    "full": "images/full/coolors.jpg",
+    "full": "images/full/coloradobe.jpg",
     "img": "http://wwwhere.io/img/thumbs/coolors.jpg",
     "tags": ["颜色"],
     "description": "选择择你喜欢的颜色，并得到数以千计的青爽配色组合。"

@@ -58,6 +58,7 @@
     {"name": "其他资源", "children": [
         {"name": "清单"},
         {"name": "文档"},
+        {"name": "测试和优化"},
         {"name": "使用Javascript"},
         {"name": "法律"}
     ]}
