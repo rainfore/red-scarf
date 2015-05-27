@@ -2,6 +2,8 @@
 logs
 *.log
 tmp
+public/index.html
+public/tags
 
 # Runtime data
 pids

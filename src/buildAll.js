@@ -31,6 +31,9 @@ function buildAll() {
 
     // 清理文件
     var command = path.join(__dirname, '../public/tags');
+    if(!fs.existsSync(command))
+        fs.mkdirSync(command);
+
     command = 'rm "' + command + '"/*';
     console.log(command);
     exec(command, function(err, out) {
