@@ -2,6 +2,10 @@
 logs
 *.log
 tmp
+public/index.html
+public/tags
+public/images/full
+.DS_Store
 
 # Runtime data
 pids

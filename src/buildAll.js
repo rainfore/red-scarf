@@ -11,11 +11,16 @@ var exec = require('child_process').exec;
  */
 function buildAll() {
     // 动态加载，require有缓存
-    var tags = fs.readFileSync(__dirname + '/data/tags.json', {encoding: 'utf8'});
-    tags = JSON.parse(tags);
-    var links = fs.readFileSync(__dirname + '/data/links.json', {encoding: 'utf8'});
-    links = JSON.parse(links);
-    var data = {tags: tags, links: links};
+    try {
+    	var tags = fs.readFileSync(__dirname + '/data/tags.json', {encoding: 'utf8'});
+    	tags = JSON.parse(tags);
+    	var links = fs.readFileSync(__dirname + '/data/links.json', {encoding: 'utf8'});
+    	links = JSON.parse(links);
+    	var data = {tags: tags, links: links};
+    } catch(e) {
+        console.log('!!!!!!!!!!!!!! ' + e);
+        return;
+    }
 
     // 加载common中的模板
     var template = {
@@ -26,6 +31,9 @@ function buildAll() {
 
     // 清理文件
     var command = path.join(__dirname, '../public/tags');
+    if(!fs.existsSync(command))
+        fs.mkdirSync(command);
+
     command = 'rm "' + command + '"/*';
     console.log(command);
     exec(command, function(err, out) {

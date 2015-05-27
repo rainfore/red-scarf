@@ -1,7 +1,7 @@
 [
     {"name": "架构", "children": [
         {"name": "框架"},
-        {"name": "流程"},
+        {"name": "工作流"},
         {"name": "CMS"},
         {"name": "栅格"},
         {"name": "预处理器"},
