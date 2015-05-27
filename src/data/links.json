@@ -2011,7 +2011,7 @@
     "name": "LumX",
     "address": "ui.lumapps.com",
     "href": "http://ui.lumapps.com/",
-    "full": "images/full/lumx.jpg",
+    "full": "images/full/lumapps.jpg",
     "img": "http://wwwhere.io/img/thumbs/lumx.jpg",
     "tags": ["框架"],
     "description": "于AngularJS与谷歌材料设计规范的第一个响应前端框架。"
@@ -2384,13 +2384,13 @@
     "tags": ["框架"],
     "description": "个优雅的HMVC PHP5框架，提供了一套丰富的组件用于构建Web应用程序。"
 }, {
-    "name": "尔康框架",
+    "name": "phalconframework",
     "address": "phalconphp.com",
     "href": "http://phalconphp.com/en",
     "full": "images/full/phalconframework.jpg",
     "img": "http://wwwhere.io/img/thumbs/phalconframework.jpg",
     "tags": ["框架"],
-    "description": "康for PHP是作为提供一个C扩展提供了高性能和低资源消耗的web框架。"
+    "description": "phalconframework是作为提供一个C扩展提供了高性能和低资源消耗的web框架。"
 }, {
     "name": "TrackDuck",
     "address": "trackduck.com",
@@ -4107,23 +4107,15 @@
     "name": "节点",
     "address": "nodejs.org",
     "href": "http://nodejs.org/",
-    "full": "images/full/node.jpg",
+    "full": "images/full/nodejs.jpg",
     "img": "http://wwwhere.io/img/thumbs/node.jpg",
     "tags": ["框架"],
     "description": "ode.js®是建立在Chrome的JavaScript运行的轻松构建快速，可扩展的网络应用程序的平台。"
 }, {
-    "name": "烬",
-    "address": "emberjs.com",
-    "href": "http://emberjs.com/",
-    "full": "images/full/ember.jpg",
-    "img": "http://wwwhere.io/img/thumbs/ember.jpg",
-    "tags": ["框架"],
-    "description": "mber.js是基于模型 - 视图 - 控制器（MVC）的软件架构模式上的一个开放源码的客户端JavaScript的Web应用程序框架。"
-}, {
     "name": "骨干",
     "address": "backbonejs.org",
     "href": "http://backbonejs.org",
-    "full": "images/full/backbone.jpg",
+    "full": "images/full/backbonejs.jpg",
     "img": "http://wwwhere.io/img/thumbs/backbone.jpg",
     "tags": ["框架"],
     "description": "过提供模型的key-value绑定和自定义事件，丰富的功能枚举API，以声明的事件处理意见给出了结构的Web应用程序。"
@@ -4139,7 +4131,7 @@
     "name": "Symfony的",
     "address": "symfony.com",
     "href": "http://symfony.com/",
-    "full": "images/full/symphony.jpg",
+    "full": "images/full/symfony.jpg",
     "img": "http://wwwhere.io/img/thumbs/symphony.jpg",
     "tags": ["框架"],
     "description": "先的PHP框架来创建网站和Web应用程序。建立在Symfony的组件之上。"
@@ -4152,10 +4144,10 @@
     "tags": ["框架"],
     "description": "aravel是一个免费，开源的PHP的Web应用框架，专为模型 - 视图 - 控制器（MVC）的Web应用程序的开发。"
 }, {
-    "name": "整洁的波旁",
+    "name": "neat",
     "address": "neat.bourbon.io",
     "href": "http://neat.bourbon.io/",
-    "full": "images/full/neat.jpg",
+    "full": "images/full/bourbon.jpg",
     "img": "http://wwwhere.io/img/thumbs/neat.jpg",
     "tags": ["框架"],
     "description": "洁是建立在萨斯和波旁之上的语义网格框架。"
@@ -4179,15 +4171,15 @@
     "name": "材质UI",
     "address": "material-ui.com",
     "href": "http://material-ui.com/",
-    "full": "images/full/materialui.jpg",
+    "full": "images/full/material.jpg",
     "img": "http://wwwhere.io/img/thumbs/materialui.jpg",
     "tags": ["框架"],
     "description": "个CSS框架和一套阵营组件实现谷歌的材料设计"
 }, {
-    "name": "物质化",
+    "name": "materialize",
     "address": "materializecss.com",
     "href": "http://materializecss.com/",
-    "full": "images/full/materialize.jpg",
+    "full": "images/full/materializecss.jpg",
     "img": "http://wwwhere.io/img/thumbs/materialize.jpg",
     "tags": ["框架"],
     "description": "于材料设计一个现代化的响应前端框架。"
@@ -4195,7 +4187,7 @@
     "name": "UIKit的",
     "address": "getuikit.com",
     "href": "http://getuikit.com",
-    "full": "images/full/uikit.jpg",
+    "full": "images/full/getuikit.jpg",
     "img": "http://wwwhere.io/img/thumbs/uikit.jpg",
     "tags": ["框架"],
     "description": "个轻量级，模块化的前端框架，用于开发快速和强大的网络接口。"
@@ -4232,7 +4224,7 @@
     "tags": ["版本控制"],
     "description": "豆是一个完整的代码托管工作流程团队或个人用于编写，审查和部署他们的代码。"
 }, {
-    "name": "Github上",
+    "name": "Github",
     "address": "github.com",
     "href": "https://github.com",
     "full": "images/full/github.jpg",
@@ -4243,7 +4235,7 @@
     "name": "NPM",
     "address": "npmjs.org",
     "href": "https://www.npmjs.org/",
-    "full": "images/full/npm.jpg",
+    "full": "images/full/npmjs.jpg",
     "img": "http://wwwhere.io/img/thumbs/npm.jpg",
     "tags": ["流程"],
     "description": "于node.js中默认的包管理器 新公共管理贯穿于命令行和管理的依赖关系的应用程序。"
@@ -4254,7 +4246,7 @@
     "full": "images/full/profoundgrid.jpg",
     "img": "http://wwwhere.io/img/thumbs/profoundgrid.jpg",
     "tags": ["栅格"],
-    "description": "个响应网格系统用于固定和流动布局。建于SCSS，它给你的灵活性和完全控制。"
+    "description": "响应网格系统用于固定和流动布局。建于SCSS，它给你的灵活性和完全控制。"
 }, {
     "name": "Gridlover",
     "address": "gridlover.net",
@@ -4835,7 +4827,7 @@
     "name": "咕噜",
     "address": "gruntjs.com",
     "href": "http://gruntjs.com",
-    "full": "images/full/grunt.jpg",
+    "full": "images/full/gruntjs.jpg",
     "img": "http://wwwhere.io/img/thumbs/grunt.jpg",
     "tags": ["流程"],
     "description": "一个字：自动化。越少的工作，你必须执行像缩小，编译，​​单元测试，掉毛等重复性的任务时做"
@@ -4867,7 +4859,7 @@
     "name": "bootstrap",
     "address": "getbootstrap.com",
     "href": "http://getbootstrap.com",
-    "full": "images/full/bootstrap.jpg",
+    "full": "images/full/getbootstrap.jpg",
     "img": "http://wwwhere.io/img/thumbs/bootstrap.jpg",
     "tags": ["框架"],
     "description": "导，时尚，直观，功能强大的移动第一前端框架更快，更容易的Web开发。"
