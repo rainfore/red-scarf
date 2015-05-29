@@ -13,11 +13,17 @@
         {"name": "部署"},
         {"name": "在线编辑"}
     ]},
-    {"name": "机构", "children": [
+    {"name": "资讯", "children": [
+        {"name": "学习"},
         {"name": "社区"},
+        {"name": "访谈"},
         {"name": "blog"},
-        {"name": "教程"},
-        {"name": "自由职业者"}
+        {"name": "教程"}
+    ]},
+    {"name": "灵感", "children": [
+        {"name": "奖项"},
+        {"name": "投资组合"},
+        {"name": "画廊"}
     ]},
     {"name": "设计", "children": [
         {"name": "颜色"},
@@ -27,17 +33,17 @@
         {"name": "图片"},
         {"name": "矢量"},
         {"name": "地图"},
-        {"name": "活版印刷"},
-        {"name": "样式规范"},
-        {"name": "视频"}
+        {"name": "视频"},
+        {"name": "占位符"}
     ]},
-    {"name": "灵感", "children": [
-        {"name": "奖项"},
-        {"name": "投资组合"},
-        {"name": "画廊"}
+    {"name": "用户体验", "children": [
+        {"name": "用户研究"},
+        {"name": "设计规范"},
+        {"name": "原型"}
     ]},
-    {"name": "工具", "children": [
+    {"name": "效率工具", "children": [
         {"name": "效率"},
+        {"name": "搜集"},
         {"name": "浏览器"},
         {"name": "浏览器扩展"},
         {"name": "程序插件"}
@@ -45,21 +51,16 @@
     {"name": "项目管理", "children": [
         {"name": "分析"},
         {"name": "合作"},
-        {"name": "搜集"},
         {"name": "版本控制"},
         {"name": "任务管理"}
-    ]},
-    {"name": "用户体验", "children": [
-        {"name": "用户研究"},
-        {"name": "设计指南"},
-        {"name": "原型"},
-        {"name": "占位符"}
-    ]},
+    ]}, 
     {"name": "其他资源", "children": [
         {"name": "清单"},
+        {"name": "指南"},
         {"name": "文档"},
         {"name": "测试和优化"},
         {"name": "使用Javascript"},
+        {"name": "自由职业者"},
         {"name": "法律"}
     ]}
 ]
