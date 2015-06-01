@@ -899,11 +899,12 @@ header .account a {
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     transition: all .5s ease;
+    position: relative;
+    left: -50%;
 }
 
 .link-block .link-inner {
     position: relative;
-    overflow: auto;
 }
 
 @media only screen and (max-width:640px) {
