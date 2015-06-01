@@ -838,7 +838,7 @@ header .account a {
 
 @media only screen and (max-width:640px) {
     .link-block {
-        /* margin: 0 0 5px; */
+        margin: 0 0 5px;
     }
 }
 
@@ -911,16 +911,12 @@ header .account a {
     }
 
     .link-block .link-inner {
-        /* padding: .5em; */
-        /* line-height: 1em; */
-        /* margin: 10px 0 0 0
-         */
     }
 }
 
 @media only screen and (min-width:641px) {
     .link-block .link-full {
-        height: 260px;
+        height: 200px;
     }
 
     .link-block .link-full img {
@@ -952,8 +948,8 @@ header .account a {
     width: 40px;
     height: 40px;
     position: absolute;
-    right:20px;
-    bottom: 48px;
+    right: 20px;
+    bottom: 34px;
     border-radius: 100px;
     overflow: hidden;
     
@@ -1001,7 +997,7 @@ header .account a {
 @media only screen and (max-width:640px) {
     .link-block .link-inner .link-title {
         font-size: 1.8em;
-        margin: 12px 10px 0 0;
+		margin-top: 0.4em;
     }
 }
 
@@ -1010,16 +1006,16 @@ header .account a {
 
     .link-block .link-inner .link-title {
         font-size: 1.6em;
-        margin: 15px 0 0 10px;
+        margin: 0.4em;
     }
 }
 
 .link-block .link-inner .link-tags {
     display: inline-block;
     list-style-type: none;
-    margin: 5px 10px;
+    margin: 0;
     padding: 0;
-    /* float: right; */
+    /*float: right;*/
 }
 
 .link-block .link-inner .link-tags li {
