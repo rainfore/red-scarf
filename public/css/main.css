@@ -838,7 +838,7 @@ header .account a {
 
 @media only screen and (max-width:640px) {
     .link-block {
-        margin: 0 0 5px;
+        /* margin: 0 0 5px; */
     }
 }
 
@@ -903,7 +903,6 @@ header .account a {
 
 .link-block .link-inner {
     position: relative;
-    overflow: auto;
 }
 
 @media only screen and (max-width:640px) {
@@ -912,7 +911,10 @@ header .account a {
     }
 
     .link-block .link-inner {
-        padding: .5em;
+        /* padding: .5em; */
+        /* line-height: 1em; */
+        /* margin: 10px 0 0 0
+         */
     }
 }
 
@@ -923,14 +925,14 @@ header .account a {
 
     .link-block .link-full img {
         max-width: none;
-        height: 400px;
+        width: 100%;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
     }
 
     .link-block .link-full:hover img {
-        -webkit-transform: scale3d(1.2, 1.2, 1);
-        transform: scale3d(1.2, 1.2, 1);
+        -webkit-transform: scale3d(1.1, 1.1, 1);
+        transform: scale3d(1.1, 1.1, 1);
     }
 
     .link-block .link-full:hover p {
@@ -947,14 +949,14 @@ header .account a {
 
 .link-block .link-inner .link-thumb {
     display: block;
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     position: absolute;
-    right: 10px;
-    top: -50%;
+    right:20px;
+    bottom: 48px;
     border-radius: 100px;
     overflow: hidden;
-
+    
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
@@ -998,7 +1000,8 @@ header .account a {
 
 @media only screen and (max-width:640px) {
     .link-block .link-inner .link-title {
-        font-size: 1.8em
+        font-size: 1.8em;
+        margin: 12px 10px 0 0;
     }
 }
 
@@ -1006,16 +1009,17 @@ header .account a {
     .link-block .link-inner {}
 
     .link-block .link-inner .link-title {
-        font-size: 1.6em
+        font-size: 1.6em;
+        margin: 15px 0 0 10px;
     }
 }
 
 .link-block .link-inner .link-tags {
     display: inline-block;
     list-style-type: none;
-    margin: 0;
+    margin: 5px 10px;
     padding: 0;
-    /*float: right;*/
+    /* float: right; */
 }
 
 .link-block .link-inner .link-tags li {
