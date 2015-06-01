@@ -158,17 +158,19 @@ jQuery(document).ready(function ($) {
 
     $(document).ready(function() {
         var showCount = 12;
+        var showHeight = 0;
 
         function show() {
             $('.link-block:lt(' + (showCount + 1) + ')').show()
-            .find('.link-thumb').each(function() {
+            .find('img[data-src]').each(function() {
                 $(this).attr('src', $(this).attr('data-src'));
             });
         }
 
         show();
+        showHeight = 352; // $('.link-block').first().height();
         $(window).scroll(function(e) {
-            if($(window).scrollTop() + $(window).height() > showCount/3*176) {
+            if($(window).scrollTop() + $(window).height() > (showCount/3)*showHeight) {
                 showCount += 12;
                 show();
                 // console.log($(window).scrollTop(), 'show');

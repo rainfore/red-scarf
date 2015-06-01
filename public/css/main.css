@@ -23,7 +23,7 @@ a, a:active, a:focus, a:hover, body {
     float: right
 }
 
-.link .link-inner .link-top, header .link-count {
+header .link-count {
     white-space: nowrap
 }
 
@@ -42,7 +42,7 @@ time, tr, tt, u, ul, var, video {
     padding: 0;
     border: 0;
     font: inherit;
-    vertical-align: baseline
+    vertical-align: baseline;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup,
@@ -251,7 +251,7 @@ section {
     -ms-flex-direction: column;
     flex-direction: column;
     position: relative;
-	margin-left: 200px;
+    margin-left: 200px;
 }
 
 .flexChild {
@@ -303,7 +303,7 @@ section {
         display: none !important
     }
     .columnParent {
-	margin-left: 0;
+    margin-left: 0;
 }
 }
 
@@ -827,15 +827,23 @@ header .account a {
 .link-block {
     display: none;
     float: left;
+    position: relative;
+    overflow: hidden;
     width: 100%;
-    margin: 0 0 2%
+    margin: 0 0 2%;
+
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .075);
 }
 
 @media only screen and (max-width:640px) {
     .link-block {
-        width: 100%;
-        margin: 0 0 5px
+        margin: 0 0 5px;
     }
+}
+
+@media only screen and (min-width:641px) {
+    .link-block {}
 }
 
 @media only screen and (min-width:960px)and (max-width:1320px) {
@@ -882,275 +890,193 @@ header .account a {
     }
 }
 
-.link {
-    background: #fff;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .075);
-    -webkit-transition: all .2s ease;
-    transition: all .2s ease;
-    position: relative;
+.link-block .link-full {
     display: block;
-    float: left;
-    overflow: hidden
+    overflow: hidden;
 }
 
-.link, .link .link-color {
-    -o-transition: all .2s ease
+.link-block .link-full img {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
-@media only screen and (max-width:640px) {
-    .link {
-        height: 60px;
-        width: 100%
-    }
-}
-
-@media only screen and (min-width:641px) {
-    .link {
-        height: 330px;
-        width: 100%;
-        position: relative
-    }
-}
-
-.link .link-color {
-    -webkit-transition: all .2s ease;
-    transition: all .2s ease
-}
-
-.link .link-color, .link .link-inner .link-thumb {
-    -webkit-transition: all .2s ease;
-    -moz-transition: all .2s ease
+.link-block .link-inner {
+    position: relative;
+    overflow: auto;
 }
 
 @media only screen and (max-width:640px) {
-    .link .link-color {
-        height: 100%;
-        width: 0px;
-        display: block;
-        float: left;
+    .link-block .link-full {
         display: none;
     }
 
-    .link .link-inner {
+    .link-block .link-inner {
         padding: .5em;
-        position: relative;
     }
 }
 
 @media only screen and (min-width:641px) {
-    .link .link-color {
+    .link-block .link-full {
         height: 260px;
-        width: 100%;
-        overflow: hidden;
     }
 
-    .link .link-inner {
-        padding: 3%
+    .link-block .link-full img {
+        max-width: none;
+        height: 400px;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
-	
 
+    .link-block .link-full:hover img {
+        -webkit-transform: scale3d(1.2, 1.2, 1);
+        transform: scale3d(1.2, 1.2, 1);
+    }
 
+    .link-block .link-full:hover p {
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
 
- .link .link-color img {
-	max-width: none;
-	height: 400px;
-	-webkit-transition: opacity 1s, -webkit-transform 1s;
-	transition: opacity 1s, transform 1s;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
+    .link-block .link-inner {
+        padding: 3%;
+    }
+
 }
 
- .link .link-color figcaption {
-	text-align: left;
+.link-block .link-inner .link-thumb {
+    display: block;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: 10px;
+    top: -50%;
+    border-radius: 100px;
+    overflow: hidden;
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
 }
 
-
-
- .link .link-color:hover img {
-	-webkit-transform: scale3d(1.1,1.1,1);
-	transform: scale3d(1.1,1.1,1);
-}
-
- .link .link-color:hover p {
-	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-}
-		
-}
-
-.link .link-inner .link-thumb {
-    display: inline-block;
-    box-sizing: border-box;
-    margin-right: 3.2%;
-    -webkit-transition: all .2s ease;
-    transition: all .2s ease
+.link-block .link-inner .link-thumb img {
+    width: 100%;
 }
 
 @media only screen and (max-width:640px) {
-    .link .link-inner .link-thumb {
-        height: 50px;
-        width: auto;
+    .link-block .link-inner .link-thumb {
+        position: static;
         float: left;
-        margin: 0 1em
-    }
-
-    .link .link-inner .link-main {
-        display: inline-block;
-        vertical-align: top;
-        float: left
+        margin-right: 1em;
+        border-radius: 0;
     }
 }
 
-.link .link-inner .link-main .link-title {
-    line-height: 1;
-    margin: 0 0 .35em;
-    padding: 0;
-    -webkit-transition: all .2s ease;
-    transition: all .2s ease
+@media only screen and (min-width:641px) {
+    .link-block .link-inner .link-thumb {}
 }
 
-.link .link-inner .link-main .link-address, .link .link-inner .link-main .link-title {
-    -webkit-transition: all .2s ease;
-    -moz-transition: all .2s ease;
-    -ms-transition: all .2s ease
+.link-block .link-inner .link-title {
+    display: inline-block;
+    margin-right: 1em;
+
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -ms-transition: all .1s ease
+}
+
+.link-block .link-inner .link-title:hover {
+    color: #DA2B2B;
 }
 
 @media only screen and (max-width:420px) {
-    .link .link-inner .link-main .link-title {
+    .link-block .link-inner .link-title {
         font-size: 1.6em !important
     }
 }
 
 @media only screen and (max-width:640px) {
-    .link .link-inner .link-main .link-title {
+    .link-block .link-inner .link-title {
         font-size: 1.8em
     }
 }
 
 @media only screen and (min-width:641px) {
-    .link .link-inner .link-thumb {
-        width: 25%;
-        max-width: 40px
-    }
-.link .link-color .link-full {
-        width: 100%;
-    height: auto;
-    }
-    .link .link-inner .link-main {
-        display: inline-block;
-        vertical-align: top;
-        min-width: 180px
-    }
+    .link-block .link-inner {}
 
-    .link .link-inner .link-main .link-title {
+    .link-block .link-inner .link-title {
         font-size: 1.6em
     }
 }
 
-.link .link-inner .link-main .link-address {
-    margin: 0 0 .9em;
-    padding: 0;
-    color: #6f6f6f;
-    font-size: 1.3em;
-    -webkit-transition: all .2s ease;
-    transition: all .2s ease;
-    text-overflow: ellipsis;
-    max-width: 17em;
-    overflow: hidden
-}
-
-@media only screen and (max-width:640px) {
-    .link .link-inner .link-main .link-address {
-        display: none
-    }
-}
-
-.link .link-inner .link-main .link-tags {
-    position: relative;
-    right: .5em
-}
-
-.link .link-inner .link-main .link-tags ul {
+.link-block .link-inner .link-tags {
+    display: inline-block;
     list-style-type: none;
     margin: 0;
-    padding: 0
+    padding: 0;
+    /*float: right;*/
 }
 
-.link .link-inner .link-main .link-tags ul li {
+.link-block .link-inner .link-tags li {
     display: inline-block;
     vertical-align: top;
     margin: 0 .2em 0 0
 }
 
-.link .link-inner .link-main .link-tags ul li:last-of-type {
+.link-block .link-inner .link-tags li:last-of-type {
     margin: 0
 }
 
-.link .link-inner .link-main .link-tags ul li a {
+.link-block .link-inner .link-tags li a {
     background: padding-box #f1f1f1;
-    padding: .4em .6em .3em;
+    padding: .3em .6em .3em;
     border-radius: 2px;
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
     color: #6f6f6f;
-    vertical-align: top;
     font-size: 1.1em;
     margin: 0;
-    text-transform: lowercase;
-    letter-spacing: .02em;
-    display: block
 }
 
-.link .link-inner .link-main .link-tags ul li a, .link .link-link a span {
+.link-block .link-inner .link-tags li a, .link-block .link-link a span {
     -webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
     -ms-transition: all .2s ease
 }
 
-.link .link-inner .link-main .link-tags ul li a:hover {
+.link-block .link-inner .link-tags li a:hover {
     background: #e9e8ea;
     color: #222
 }
 
-.link .link-inner .link-main .link-tags ul li .tag {
+.link-block .link-inner .link-tags li .tag {
     color: #c3c0c5;
     font-size: 1.5em;
-    display: none;
-    background: 0 0;
-    position: relative;
-    top: .2em
+    padding: .3em 0 .3em;
 }
 
 @media only screen and (min-width:641px) {
-    .link .link-inner .link-main .link-tags {
-        position: relative;
-        right: 0
-    }
-
-    .link .link-inner .link-main .link-tags ul li .tag {
-        display: inline-block;
-        margin-right: .3em
-    }
+    .link-block .link-inner .link-tags li .tag {}
 }
 
-.link .link-inner .link-description {
+.link-block .link-inner .link-description {
     font-size: 1.2em;
     line-height: 1.42;
     margin-top: 5%
 }
 
 @media only screen and (max-width:640px) {
-    .link .link-inner .link-description {
+    .link-block .link-inner .link-description {
         display: none
     }
 }
 
-.link .link-link {
+.link-block .link-link {
     opacity: 1
 }
 
-.link .link-link a span {
+.link-block .link-link a span {
     color: #fff;
     background: #f2f3f7;
     width: 50px;
@@ -1165,12 +1091,12 @@ header .account a {
     text-align: center
 }
 
-.link .link-link a:active span, .link .link-link a:focus span, .link .link-link a:hover span, .link:hover .link-link a:hover span {
+.link-block .link-link a:active span, .link-block .link-link a:focus span, .link-block .link-link a:hover span, .link-block:hover .link-link a:hover span {
     color: #DA2B2B
 }
 
 @media only screen and (min-width:641px) {
-    .link .link-link {
+    .link-block .link-link {
         position: absolute;
         top: 40px;
         opacity: 0;
@@ -1179,13 +1105,13 @@ header .account a {
         transition: all .2s ease
     }
 
-    .link .link-link a {
+    .link-block .link-link a {
         text-align: center;
         margin: 0 auto;
         display: block
     }
 
-    .link .link-link a span {
+    .link-block .link-link a span {
         background: #fff;
         margin: 0
     }
@@ -1197,13 +1123,13 @@ header .account a {
 }
 
 @media only screen and (min-width:641px) {
-    .link:hover .link-link {
+    .link-block:hover .link-link {
         opacity: 1;
         top: 20px
     }
 }
 
-.link:hover .link-link a span {
+.link-block:hover .link-link a span {
     background: #f2f3f7
 }
 
@@ -1237,9 +1163,9 @@ header .link-count {
 header .link-count .link-highlight {
     background: padding-box #dcdcdc;
     padding: .4em .6em .35em;
-	margin-left: .4em;
+    margin-left: .4em;
     border-radius: 3px;
-	font-size: 0.8em;
+    font-size: 0.8em;
     text-transform: lowercase
 }
 
@@ -1255,7 +1181,7 @@ header .link-count .link-icon {
     position: relative;
     top: .2em;
     font-size: 1.1em;
-	color: #6f6f6f;
+    color: #6f6f6f;
 }
 
 header .link-count .extended-intro {
@@ -1365,13 +1291,13 @@ aside {
 }
 
 .sidebar {
-	   -webkit-box-flex: 0;
-	   -webkit-flex: 0 0 auto;
-	   -ms-flex: 0 0 auto;
-	   flex: 0 0 auto;
-	   width: 200px;
-	   position: fixed;
-	   min-height: 100%;
+       -webkit-box-flex: 0;
+       -webkit-flex: 0 0 auto;
+       -ms-flex: 0 0 auto;
+       flex: 0 0 auto;
+       width: 200px;
+       position: fixed;
+       min-height: 100%;
 }
 
 .branding {
