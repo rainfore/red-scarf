@@ -168,7 +168,7 @@ jQuery(document).ready(function ($) {
         }
 
         show();
-        showHeight = 280; // $('.link-block').first().height();
+        showHeight = 200; // $('.link-block').first().height();
         $(window).scroll(function(e) {
             if($(window).scrollTop() + $(window).height() > (showCount/3)*showHeight) {
                 showCount += 12;

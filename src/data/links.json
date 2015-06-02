@@ -233,7 +233,7 @@
     "href": "http://www.webdesignernews.com/",
     "full": "images/full/webdesignernews.jpg",
     "img": "images/thumbs/webdesignernews.jpg",
-    "tags": ["用品"],
+    "tags": ["blog"],
     "description": "资讯站，网页设计师。"
 }, {
     "name": "DevTips",
@@ -284,7 +284,7 @@
     "tags": ["用户研究"],
     "description": "icomi是一个可视化的平台，双方的意见和Feelbacks投票平台，这给了出版商的工具来测量用户的情绪，从而提高参与。"
 }, {
-    "name": "水平Up TUTS",
+    "name": "leveluptuts",
     "address": "leveluptuts.com",
     "href": "http://leveluptuts.com/",
     "full": "images/full/leveluptuts.jpg",
@@ -657,7 +657,7 @@
     "href": "http://searchenginewatch.com/",
     "full": "images/full/searchenginewatch.jpg",
     "img": "images/thumbs/searchenginewatch.jpg",
-    "tags": ["用品", "搜索引擎优化"],
+    "tags": ["blog", "搜索引擎优化"],
     "description": "行时间最长的SEM行业的资源。谷歌，必应和搜索新闻。发展趋势，如何渡，意见，并在搜索引擎优化，竞价排名，分析，社交媒体和内容的提示。"
 }, {
     "name": "雄伟",
@@ -1727,7 +1727,7 @@
     "name": "thestateofwebtype",
     "address": "stateofwebtype.com",
     "href": "http://stateofwebtype.com/",
-    "full": "images/full/thestateofwebtype.jpg",
+    "full": "images/full/stateofwebtype.jpg",
     "img": "images/thumbs/thestateofwebtype.jpg",
     "tags": ["指南", "字体"],
     "description": "至到日期在网络上的类型和排版功能支持数据。 "
@@ -1889,7 +1889,7 @@
     "href": "http://recode.net/",
     "full": "images/full/recode.jpg",
     "img": "images/thumbs/recode.jpg",
-    "tags": ["用品"],
+    "tags": ["blog"],
     "description": "立的科技新闻，评论及活动 "
 }, {
     "name": "DISQUS",
@@ -3255,7 +3255,7 @@
     "name": "Proto.io",
     "address": "proto.io",
     "href": "https://proto.io/",
-    "full": "images/full/protoio.jpg",
+    "full": "images/full/proto.jpg",
     "img": "images/thumbs/protoio.jpg",
     "tags": ["原型"],
     "description": "造高保真在几分钟内完全互动的移动应用程序的原型。"
@@ -3300,10 +3300,10 @@
     "tags": ["原型"],
     "description": "好的平台来定义与丰富的互动线框网络和移动应用程序"
 }, {
-    "name": "奇迹",
+    "name": "marvel",
     "address": "marvelapp.com",
     "href": "https://marvelapp.com/",
-    "full": "images/full/marvel.jpg",
+    "full": "images/full/marvelapp.jpg",
     "img": "images/thumbs/marvel.jpg",
     "tags": ["原型"],
     "description": "费手机与网页原型设计的每一个人。没有编码需要。"
@@ -3324,10 +3324,10 @@
     "tags": ["原型"],
     "description": "linto可快速，轻松地创建原型，看起来就像真实的东西。"
 }, {
-    "name": "成帧器",
+    "name": "framer",
     "address": "framerjs.com",
     "href": "http://framerjs.com/",
-    "full": "images/full/framer.jpg",
+    "full": "images/full/framerjs.jpg",
     "img": "images/thumbs/framer.jpg",
     "tags": ["原型"],
     "description": "帧器是一个新的创造性的工具来构建互动和动画原型"
@@ -4321,7 +4321,7 @@
     "href": "http://ilovetypography.com/",
     "full": "images/full/ilovetypography.jpg",
     "img": "images/thumbs/iliketypography.jpg",
-    "tags": ["用品", "字体"],
+    "tags": ["blog", "字体"],
     "description": "界上最流行的字体与排版博客。"
 }, {
     "name": "HTML5岩",
@@ -4329,7 +4329,7 @@
     "href": "http://www.html5rocks.com/en/",
     "full": "images/full/html5rocks.jpg",
     "img": "images/thumbs/html5rocks.jpg",
-    "tags": ["用品", "教程"],
+    "tags": ["blog", "教程"],
     "description": "个资源为开发人员希望把HTML5使用的今天，包括对特定的功能和何时使用它们在你的应用程序的信息。"
 }, {
     "name": "下一个web",
@@ -4337,7 +4337,7 @@
     "href": "http://thenextweb.com/",
     "full": "images/full/thenextweb.jpg",
     "img": "images/thumbs/thenextweb.jpg",
-    "tags": ["用品"],
+    "tags": ["blog"],
     "description": "的来源为国际科技新闻，商业和文化。"
 }, {
     "name": "大卫·沃尔什博客",
@@ -4345,7 +4345,7 @@
     "href": "http://davidwalsh.name/",
     "full": "images/full/davidwalsh.jpg",
     "img": "images/thumbs/davidwalsh.jpg",
-    "tags": ["用品", "教程"],
+    "tags": ["blog", "教程"],
     "description": "卫·沃尔什博客提供有关MooTools的，jQuery的，道场，JavaScript的，PHP，CSS，HTML5，MySQL和更多的教程！"
 }, {
     "name": "99U",
@@ -4353,7 +4353,7 @@
     "href": "http://99u.com/",
     "full": "images/full/99u.jpg",
     "img": "images/thumbs/99u.jpg",
-    "tags": ["blog", "用品"],
+    "tags": ["blog", "blog"],
     "description": "99U提供了行动为导向的教育，你没有得到学校，凸显现实世界中的最佳实践制作理念发生。"
 }, {
     "name": "边栏",
@@ -4361,7 +4361,7 @@
     "href": "http://sidebar.io/",
     "full": "images/full/sidebar.jpg",
     "img": "images/thumbs/sidebar.jpg",
-    "tags": ["用品"],
+    "tags": ["blog"],
     "description": "一天，由一个伟大的选择编辑策划了5个最佳设计环节。"
 }, {
     "name": "CSS-技巧",
@@ -4377,15 +4377,15 @@
     "href": "http://www.creativebloq.com/",
     "full": "images/full/creativebloq.jpg",
     "img": "images/thumbs/creativebloq.jpg",
-    "tags": ["用品", "教程"],
+    "tags": ["blog", "教程"],
     "description": "日灵感创意的人。新的思维，专家提示和教程增压你的创意的肌肉。"
 }, {
-    "name": "列表除了",
+    "name": "alistapart",
     "address": "alistapart.com",
     "href": "http://alistapart.com/",
     "full": "images/full/alistapart.jpg",
     "img": "images/thumbs/alistapart.jpg",
-    "tags": ["用品"],
+    "tags": ["blog"],
     "description": "998年以来，设计杂志的人谁做的网站。探讨了设计，开发，和网络内容的意义，并特别专注于Web标准和最佳实践。"
 }, {
     "name": "苏格兰发展",
@@ -4393,7 +4393,7 @@
     "href": "http://scotch.io/",
     "full": "images/full/scotch.jpg",
     "img": "images/thumbs/scotch.jpg",
-    "tags": ["用品", "教程"],
+    "tags": ["blog", "教程"],
     "description": "见地的网页设计/开发的文章。把火烧的人。"
 }, {
     "name": "TUTS +",
@@ -4409,7 +4409,7 @@
     "href": "http://webdesignledger.com/",
     "full": "images/full/webdesignledger.jpg",
     "img": "images/thumbs/webdesignledger.jpg",
-    "tags": ["用品", "教程"],
+    "tags": ["blog", "教程"],
     "description": "页设计莱杰是一个出版物网页设计师网页设计师。我们涵盖范围广泛的议题，如Photoshop，网页设计，摄影，"
 }, {
     "name": "秘密握手",
@@ -4433,7 +4433,7 @@
     "href": "http://www.webdesignerdepot.com/",
     "full": "images/full/webdesignerdepot.jpg",
     "img": "images/thumbs/webdesignerdepot.jpg",
-    "tags": ["用品", "教程"],
+    "tags": ["blog", "教程"],
     "description": "页设计师网页设计资源。我们有Photoshop教程和Web开发工具。下载免费的图标时，Photoshop笔刷和工具，Web和图形设计师。"
 }, {
     "name": "Speckyboy",
@@ -4441,7 +4441,7 @@
     "href": "http://speckyboy.com/",
     "full": "images/full/speckyboy.jpg",
     "img": "images/thumbs/speckyboy.jpg",
-    "tags": ["用品", "教程"],
+    "tags": ["blog", "教程"],
     "description": "peckyboy是一个在线杂志的网页设计师，其重点突出资源，探索新技术，令人振奋。"
 }, {
     "name": "碎杂志",
@@ -4449,7 +4449,7 @@
     "href": "http://www.smashingmagazine.com/",
     "full": "images/full/smashingmagazine.jpg",
     "img": "images/thumbs/smashingmagazine.jpg",
-    "tags": ["用品", "教程"],
+    "tags": ["blog", "教程"],
     "description": "杂志，在线杂志为专业的网页设计师和开发人员。"
 }, {
     "name": "Sitepoint",
@@ -4495,9 +4495,9 @@
     "name": "Designm.ag",
     "address": "designm.ag",
     "href": "http://designm.ag/",
-    "full": "images/full/designmag.jpg",
+    "full": "images/full/designm.jpg",
     "img": "images/thumbs/designmag.jpg",
-    "tags": ["用品"],
+    "tags": ["blog"],
     "description": "esignM.ag是网页设计师博客和社区资源。按照行业新闻，并通过我们的设计廊浏览以及。"
 }, {
     "name": "设计师清单",
@@ -4513,7 +4513,7 @@
     "href": "http://www.cruzine.com/",
     "full": "images/full/cruzine.jpg",
     "img": "images/thumbs/cruzine.jpg",
-    "tags": ["用品"],
+    "tags": ["blog"],
     "description": "ruzine是一个在线杂志为大家，谁拥有真正的兴趣和热情的一切，创意艺术，网页设计，图形艺术相关的，"
 }, {
     "name": "Codrops",
@@ -4521,7 +4521,7 @@
     "href": "http://tympanus.net/codrops/",
     "full": "images/full/tympanus.jpg",
     "img": "images/thumbs/codrops.jpg",
-    "tags": ["用品", "教程"],
+    "tags": ["blog", "教程"],
     "description": "odrops致力于提供有用的教程，有见地的文章，创作灵感和免费资源，网页设计师和开发人员。"
 }, {
     "name": "Buildinternet",
@@ -4529,7 +4529,7 @@
     "href": "http://buildinternet.com/",
     "full": "images/full/buildinternet.jpg",
     "img": "images/thumbs/buildinternet.jpg",
-    "tags": ["用品", "教程"],
+    "tags": ["blog", "教程"],
     "description": "一块巨大的轰鸣声博客。一家专注于设计，开发和数字化的业务。"
 }, {
     "name": "landbook",
@@ -4551,7 +4551,7 @@
     "name": "Typ.io",
     "address": "typ.io",
     "href": "http://www.typ.io/",
-    "full": "images/full/typio.jpg",
+    "full": "images/full/typ.jpg",
     "img": "images/thumbs/typio.jpg",
     "tags": ["画廊", "字体"],
     "description": "们揭示了设计师有目共睹的决定; 美网站的引擎盖下偷看，找出他们正在使用以及如何使用的是他们什么字体。"
