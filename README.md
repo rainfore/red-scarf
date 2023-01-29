@@ -1,2 +1,1 @@
-# red-scarf
-A simple website which help designer and web developer to find resources and references efficiently.
+请你叫我红领巾

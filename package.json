@@ -1,0 +1,14 @@
+{
+    "name": "wwwhere",
+    "description": "wwwhere",
+    "author": ["Moretwo", "Sensen <rainforest92@126.com>"],
+    "version": "0.0.1",
+    "license": "MIT",
+    "keywords": [],
+    "tags": [],
+    "dependencies": {
+    },
+    "devDependencies": {
+        "ejs": "^2.3.1"
+    }
+}
